@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Eduardo Sieglitz</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Estilo do cabeçalho */
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Estilo da navegação */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #34495e;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 20px;
+      display: block;
+    }
+
+    nav ul li a:hover {
+      background-color: #1abc9c;
+      border-radius: 5px;
+    }
+
+    /* Estilos das seções */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    section ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    section ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Estilo do rodapé */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    footer ul li a {
+      color: #1abc9c;
+      text-decoration: none;
+    }
+
+    footer ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Estilo de rolagem suave */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Eduardo Sieglitz</h1>
+    <p>Desenvolvedor Web Back-End e Futuro Full-Stack</p>
+  </header>
+
+  <!-- Navegação -->
+  <nav>
+    <ul>
+      <li><a href="#sobre-mim">Sobre Mim</a></li>
+      <li><a href="#qualidades">Minhas Qualidades</a></li>
+      <li><a href="#pontos-melhorar">Pontos a Melhorar</a></li>
+      <li><a href="#objetivo">Meu Objetivo</a></li>
+    </ul>
+  </nav>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre-mim">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Meu nome é Eduardo Sieglitz, estou no terceiro ano do ensino médio e sou apaixonado por tecnologia e programação. Desde cedo, me interessei pelo mundo da tecnologia, e ao longo do tempo desenvolvi minhas habilidades em desenvolvimento web. Atualmente, meu foco é me especializar como desenvolvedor back-end, mas estou trilhando meu caminho para, no futuro, me tornar um desenvolvedor full-stack.</p>
+    <p>Tenho conhecimento sólido em várias linguagens e frameworks, incluindo HTML, CSS, JavaScript, Java, PHP, NodeJs, Express, React e TypeScript. No momento, estou me aprofundando especialmente em React e TypeScript, buscando expandir minha proficiência para desenvolver soluções cada vez mais robustas e eficientes.</p>
+  </section>
+
+  <!-- Seção Minhas Qualidades -->
+  <section id="qualidades">
+    <h2>Minhas Qualidades</h2>
+    <ul>
+      <li><strong>Foco:</strong> Dedico toda minha atenção às tarefas para garantir excelência.</li>
+      <li><strong>Responsabilidade:</strong> Cumpro minhas obrigações de forma exemplar e sou confiável.</li>
+      <li><strong>Organização:</strong> Minha organização permite um desempenho consistente.</li>
+      <li><strong>Dedicação:</strong> Me envolvo com total comprometimento em tudo que faço.</li>
+      <li><strong>Facilidade de Aprendizado:</strong> Aprendo rapidamente novas tecnologias e ferramentas.</li>
+      <li><strong>Escuta e Empatia:</strong> Gosto de ouvir e ajudar as pessoas, além de compartilhar conhecimento.</li>
+    </ul>
+  </section>
+
+  <!-- Seção Pontos a Melhorar -->
+  <section id="pontos-melhorar">
+    <h2>Pontos a Melhorar</h2>
+    <ul>
+      <li><strong>Teimosia:</strong> Tenho tendência a questionar muito e posso ser resistente a mudanças.</li>
+      <li><strong>Questionamento Exigente:</strong> Gosto de entender a lógica por trás das ideias e posso questionar até estar convencido.</li>
+      <li><strong>Desligado:</strong> Tenho autismo, e às vezes me desconecto do mundo ao redor, mas estou sempre buscando melhorar meu foco.</li>
+      <li><strong>Competitividade:</strong> Minha competitividade, embora me motive, às vezes pode ser uma desvantagem.</li>
+      <li><strong>Dificuldade com Ironia:</strong> Estou trabalhando para melhorar minha interpretação de ironia e sarcasmo.</li>
+    </ul>
+  </section>
+
+  <!-- Seção Meu Objetivo -->
+  <section id="objetivo">
+    <h2>Meu Objetivo</h2>
+    <p>Meu objetivo a curto prazo é continuar me aprimorando nas áreas de back-end e front-end, desenvolvendo projetos que desafiem minhas habilidades e me preparem para o futuro como desenvolvedor full-stack. A longo prazo, quero contribuir com soluções que melhorem a vida das pessoas e continuar crescendo como profissional na área de tecnologia.</p>
+    <p>Se você se interessa por desenvolvimento web ou precisa de ajuda em um projeto, será um prazer conversar!</p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Eduardo Sieglitz - Desenvolvedor Web</p>
+    <ul>
+      <li><a href="https://github.com/EduardoSieglitz" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/eduardo-sieglitz-da-silveira-22a3b8283/" target="_blank">LinkedIn</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
